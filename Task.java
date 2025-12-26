@@ -8,8 +8,8 @@ public class Task {
    private String updatedAt;
    private LocalDate date = LocalDate.now();
 
-   public Task(String description){
-    this.id = id++;
+   public Task(int id, String description){
+    this.id = id;
     this.description = description;
     this.status = "to do";
     this.createdAt = date.toString();

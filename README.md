@@ -1,13 +1,32 @@
-commands
-//just type the commands to interact with the app
+#  Task Tracker CLI
 
-add "description"                              adds a new task
-update "id" "new description"                  updates the selected task
-delete "id"                                    deletes the selcted task
-mark-done                                      marks task status done
-mark-to-do                                     marks task status to do
-mark-in-progress                               marks task status in progress 
-list                                           list all task
-list done                                      list all task done
-list to-do                                     list all task to do
-list in-progress                               list all task in progress
+A simple Java-based command-line interface i made it still have a lot of bugs.
+
+---
+
+##  Commands & Usage
+
+Use the following commands to interact with the application. 
+
+> **Note:** Replace `<id>` with the task number and `"description"` with your text.
+
+##  Basic Actions
+| Command | Description |
+| :--- | :--- |
+| `add "description"` | Adds a new task |
+| `update <id> "new description"` | Updates the selected task |
+| `delete <id>` | Deletes the selected task |
+| `list` | Lists all tasks |
+| `exit` | Exit the app |
+
+##  Status Updates
+| Command | Resulting Status |
+| :--- | :--- |
+| `mark-done <id>` | Done  |
+| `mark-to-do <id>` | To Do  |
+| `mark-in-progress <id>` | In Progress  |
+
+##  Filtered Lists
+*  `list done` — Show only completed tasks.
+*  `list to-do` — Show tasks not yet started.
+*  `list in-progress` — Show tasks currently being worked on.

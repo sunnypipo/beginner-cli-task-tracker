@@ -1,7 +1,6 @@
 #  Task Tracker CLI
 
 A simple Java-based command-line interface i made it still have a lot of bugs.
-
 ---
 
 ##  Commands & Usage
@@ -31,4 +30,5 @@ Use the following commands to interact with the application.
 *  `list to-do` — Show tasks not yet started.
 *  `list in-progress` — Show tasks currently being worked on.
   
- download here: [link](github.com)
+ [Download beginner-cli-task-tracker (ZIP)](https://github.com/sunnypipo/beginner-cli-task-tracker/archive/refs/heads/main.zip)
+ 
